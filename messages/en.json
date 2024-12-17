@@ -1,0 +1,331 @@
+{
+  "navigationLinks": {
+    "homepage": {
+      "title": "Homepage",
+      "link": "/"
+    },
+    "ourServices": {
+      "title": "Our services",
+      "link": "/our-services"
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "link": "/portfolio"
+    },
+    "aboutUs": {
+      "title": "About us",
+      "link": "/about-us"
+    },
+    "contactUs": {
+      "title": "Contact us",
+      "link": "/contact-us"
+    }
+  },
+  "footer": {
+    "address": {
+      "addressTitle": "Address",
+      "addressTh": "บริษัท กรีนไททัน จำกัด",
+      "addressEn": "GREEN TITAN CO., LTD.",
+      "fullAddress": "621 Ratchawithi 21, Bang Yi Khan, Bang Plat, Bangkok 10700"
+    },
+    "contacts": {
+      "header": "Contact us",
+      "facebook": {
+        "title": "GREEN TITAN ENGINEERING",
+        "link": "https://www.facebook.com/@GreenTitanEngineering/"
+      },
+      "lineAd": { "title": "@greentitan", "link": "https://lin.ee/WogFj4o" },
+      "tel": { "title": "081-489-6496", "link": "0814896496" },
+      "email": {
+        "title": "greentitanengineering@gmail.com",
+        "link": "greentitanengineering@gmail.com"
+      }
+    }
+  },
+  "homePage": {
+    "aboutUsSection": {
+      "header": "About Company",
+      "detail": "<strong>Green Titan Engineering Co., Ltd.</strong> was founded by a group of clean energy expert engineers. We are committed to becoming the leading provider of comprehensive clean energy solutions in Thailand.",
+      "mission": "<strong>Mission:</strong> We will revolutionize Thailand's energy landscape by delivering cutting-edge clean energy solutions that meet our clients' diverse needs and promote sustainable development.",
+      "vision": "<strong>Vision:</strong> By 2029, Green Titan Engineering will be Thailand's leading provider of integrated clean energy solutions, powering 30% of the country's solar installations and EV charging infrastructure."
+    },
+    "ourService": {
+      "preTitle": "services",
+      "title": "Our Features & Services",
+      "services": {
+        "buttonText": "View Packages & Price",
+        "service1": {
+          "imageUrl": "/static/images/our-services/solar-rooftop-hero.jpg",
+          "title": "Solar Rooftop Systems",
+          "description": "Design and installation of ON-GRID, OFF-GRID, and HYBRID systems"
+        },
+        "service2": {
+          "imageUrl": "/static/images/our-services/ev-charger-hero.jpg",
+          "title": "EV Charging Stations",
+          "description": "Installation of residential and commercial charging stations"
+        },
+        "service3": {
+          "imageUrl": "/static/images/our-services/power-distribution-hero.jpg",
+          "title": "Power distribution system",
+          "description": "Main Distribution Board (MDB), maintenance 22/24 kV power distribution systems, Fire alarm system and clean energy consultation"
+        }
+      }
+    },
+    "heroProjects": {
+      "preHeader": "projects",
+      "header": "Our Successful Project",
+      "viewAllbutton": "All Projects"
+    },
+    "qualityAssurance": {
+      "header": "Quality Assurance",
+      "subHeader": "We are committed to delivering the highest quality to our customers.",
+      "bulletOne": {
+        "imageUrl": "/static/images/world-class-image.png",
+        "title": "อุปกรณ์และเทคโนโลยีระดับโลก",
+        "subtitle": "ใช้อุปกรณ์จากแบรนด์ชั้นนำระดับโลกที่ได้รับการรับรองมาตรฐานสากลและมีการรับประกันคุณภาพสินค้า เช่น อินเวอร์เตอร์ แผงโซลาร์ ระบบยึดติดตั้ง อุปกรณ์ต่างๆ และเครื่องชาร์จรถยนต์ไฟฟ้า"
+      },
+      "bulletTwo": {
+        "imageUrl": "/static/images/standard-quality-image.png",
+        "title": "มาตรฐานการติดตั้ง",
+        "subtitle": "ยึดมั่นในมาตรฐานสากล ข้อกำหนดของการไฟฟ้าท้องถิ่น (กฟน. กฟภ.) และใช้ระบบควบคุมคุณภาพที่เข้มงวดในทุกขั้นตอนของโครงการ เช่น รายงานการสำรวจ ตัวอย่างการออกแบบ การทดสอบระบบและการส่งมอบ"
+      },
+      "bulletThree": {
+        "imageUrl": "/static/images/performance-image.png",
+        "title": "การรับประกันประสิทธิภาพ",
+        "subtitle": "“Commissioning & Handover” หรือการทดสอบระบบและการส่งมอบ เพื่อรับประกันคุณภาพงาน พร้อมให้บริการหลังการขายและการบำรุงรักษาอย่างต่อเนื่อง เช่น การดูแลรักษา การรับประกันการติดตั้ง"
+      }
+    },
+    "blogs": {
+      "header": "Our sustainability",
+      "headerBold": "Impact",
+      "bullet1": {
+        "title": "Reducing greenhouse gas emissions",
+        "subtitle": "Our projects help reduce over 10,000 tons of CO2 emissions annually"
+      },
+      "bullet2": {
+        "title": "Promoting clean energy",
+        "subtitle": "We support the government's goal of increasing renewable energy share to 30% by 2037"
+      },
+      "bullet3": {
+        "title": "Creating green jobs",
+        "subtitle": "We generate employment opportunities in the clean energy industry"
+      },
+      "bullet4": {
+        "title": "Supporting electrification",
+        "subtitle": "Our EV charging infrastructure helps reduce dependence on fossil fuels"
+      },
+      "bullet5": {
+        "title": "Educating communities",
+        "subtitle": "We conduct clean energy education programs for schools and local communities"
+      }
+    }
+  },
+  "ourServicesPage": {
+    "title": "Our services",
+    "titleBold": "What we do",
+    "paragraph1": "At <strong>Green Titan Engineering,</strong> we are at the forefront of alternative energy solutions. Our comprehensive services encompass design, installation, project management, and consultancy for Solar Rooftop systems, EV Charging Stations, and power distribution systems.",
+    "paragraph2": "We are committed to delivering exceptional quality, utilizing world-class equipment and leveraging our team of expert installers to create tailored clean energy solutions that meet your every need. Join us in powering a sustainable future for Thailand.",
+    "buttonText": "View projects",
+
+    "panel1": {
+      "imageUrl": "/static/images/our-services/SolarServiceImage.png",
+      "title": "Solar Rooftop Systems",
+      "bullet1": "Design and installation of ON-GRID, OFF-GRID, and HYBRID systems",
+      "bullet2": "Energy consumption analysis and site suitability assessment",
+      "bullet3": "System maintenance and performance monitoring",
+      "packages": {
+        "packageTitle": "Packages & Price",
+
+        "title": "Turnkey & Packages",
+        "powerHeader": "Power",
+        "panelQuantityHeader": "JA 550W (panels)",
+        "priceBeforeVat": "Price (Exclude vat)",
+        "additionalService": {
+          "title": "Other services",
+          "bullet1": "รับประกันงานติดตั้ง 2 ปี",
+          "bullet2": "ล้างแผง 1 ครั้ง 1 ปี",
+          "bullet3": "ขออนุญาต",
+          "bullet4": "เซ็นรับรองออกแบบโดยวิศวกรไฟฟ้า ระดับภาคี"
+        },
+        "remark": {
+          "title": "หมายเหตุ",
+          "bullet1": "สำรวจฟรี กรุงเทพมหานครและปริมณฑล",
+          "bullet2": "ราคาอาจปรับเพิ่ม-ลด ขึ้นกับหน้างาน หลังเข้าสำรวจและทำราคาใหม่*",
+          "bullet3": "ราคาแพ็คเก็จยังไม่รวมค่าเซ็นแบบโดยวิศวกรไฟฟ้า ระดับสามัญ (ราคา 5,000)และค่าเซ็นแบบและรายการคำนวนโดยวิศวกรโยธา ระดับสามัญ (ราคา 10,000 บาท)**"
+        },
+        "package": {
+          "panelQuntity_unit": "panels",
+          "power_unit": "kW",
+          "excludeVatText": "Excluding tax",
+          "phase_unit": "phase"
+        }
+      }
+    },
+    "panel2": {
+      "imageUrl": "/static/images/our-services/EVChargingServiceImage.png",
+      "title": "EV Charging Stations",
+      "bullet1": "Installation of residential and commercial charging stations",
+      "bullet2": "Fast and standard charging solutions",
+      "bullet3": "Smart charging management systems",
+      "packages": {
+        "packageTitle": "Packages & Price",
+
+        "title": "Turnkey & Packages",
+        "powerHeader": "Power",
+        "modelHeader": "Model",
+        "brandHeader": "Brand",
+        "priceBeforeVat": "Price (exclude vat)",
+        "additionalService": {
+          "title": "Other services",
+          "bullet1": "รับประกันงานติดตั้ง 2 ปี",
+          "bullet2": "เซ็นรับรองออกแบบโดยวิศวกรไฟฟ้า ระดับภาคี"
+        },
+        "remark": {
+          "title": "หมายเหตุ",
+          "bullet1": "สำรวจฟรี กรุงเทพมหานครและปริมณฑล",
+          "bullet2": "ราคาอาจปรับเพิ่ม-ลด ขึ้นกับหน้างาน หลังเข้าสำรวจและทำราคาใหม่*",
+          "bullet3": "ราคา EV HOME CHARGER ระยะสายไฟ 15 เมตร**",
+          "bullet4": "PACKAGE นี้ สำหรับงานติดตั้งบ้านพักอาศัยเท่านั้น***",
+          "bullet5": "งานติดตั้งคอนโดหรือสถานีชาร์จ ต้องเข้าสำรวจหน้างานก่อนและจัดทำราคาตามหน้างานจริง****",
+          "bullet6": "ราคาแพ็คเก็จยังไม่รวมค่าเซ็นแบบโดยวิศวกรไฟฟ้า ระดับสามัญ (ราคา 5,000)และค่าเซ็นแบบและรายการคำนวนโดยวิศวกรโยธา ระดับสามัญ (ราคา 10,000 บาท)*****"
+        },
+        "package": {
+          "power_unit": "kW",
+          "excludeVatText": "Excluding tax",
+          "phase_unit": "phase"
+        }
+      }
+    },
+    "panel3": {
+      "imageUrl": "/static/images/our-services/PowerDistricuteServiceImage.png",
+      "title": " Power distribution system",
+      "bullet1": "Main Distribution Board (MDB), maintenance 22/24 kV power distribution systems, Fire alarm system and clean energy consultation"
+    }
+  },
+  "aboutUsPage": {
+    "title": "About Green Titan Engineering",
+    "subtitle": "Green Titan Engineering delivers advanced clean energy solutions in Thailand's renewable energy sector. Our expertise encompasses premium solar rooftop systems, EV charging infrastructure, and power distribution systems, serving businesses and organizations committed to sustainable energy adoption.",
+    "coreValues": {
+      "title": "Core Values",
+      "innovationAndExcellence": {
+        "title": "Innovation & Excellence",
+        "bullet1": "<strong>Advanced Clean Energy Solutions:</strong> Integration of the latest solar technologies including bifacial panels, smart optimizers, and AI-driven monitoring systems",
+        "bullet2": "<strong>Cutting-edge Technology Implementation:</strong> Deployment of IoT-based monitoring, smart grid integration, and advanced energy management systems",
+        "bullet3": "<strong>Data-driven System Optimization:</strong> Utilization of advanced analytics for performance optimization, predictive maintenance, and efficiency improvements",
+        "bullet4": "<strong>Sustainable Practice Integration:</strong> Implementation of eco-friendly installation methods, recycling programs, and carbon footprint reduction strategies"
+      },
+      "qualityAndReliability": {
+        "title": "Quality & Reliability",
+        "bullet1": "<strong>Stringent Quality Control:</strong> Implementation of multi-stage quality checks, advanced testing protocols, and comprehensive documentation systems",
+        "bullet2": "<strong>Premium Equipment Selection:</strong> Careful curation of Tier-1 manufacturers, extensive testing of components, and long-term performance guarantees",
+        "bullet3": "<strong>Professional Project Management:</strong> Structured approach using PMI standards, detailed milestone tracking, and regular stakeholder communications",
+        "bullet4": "<strong>Comprehensive Warranty Systems:</strong> Extended product warranties, performance guarantees, and dedicated after-sales support programs"
+      },
+      "customerFocus": {
+        "title": "Customer Focus",
+        "bullet1": "<strong>Customized Energy Solutions:</strong> Tailored system designs based on detailed energy consumption analysis and specific site requirements",
+        "bullet2": "<strong>Transparent Technical Communication:</strong> Clear reporting of system specifications, performance metrics, and regular status updates",
+        "bullet3": "<strong>Dedicated Technical Support:</strong> Specialized support team for rapid response, 24/7 monitoring capabilities, and preventive maintenance",
+        "bullet4": "<strong>Long-term System Optimization:</strong> Continuous performance monitoring, regular efficiency reviews, and system upgrade recommendations"
+      }
+    },
+    "technicalExpertise": {
+      "title": "Technical Expertise",
+      "engineeringExcellenceOurTechnicalTeamSpecializesIn": {
+        "title": "Engineering Excellence Our technical team specializes in:",
+        "bullet1": "<strong>Solar System Design Optimization:</strong> Advanced system modeling using industry-standard software, incorporating factors such as shading analysis, tilt optimization, and string configuration for maximum energy yield",
+        "bullet2": "<strong>Electrical System Integration:</strong> Comprehensive electrical design including protection systems, grounding schemes, and smart grid integration capabilities following IEC standards",
+        "bullet3": "<strong>EV Charging Infrastructure:</strong> Implementation of smart charging systems with load balancing capabilities, supporting multiple charging protocols (CCS, CHAdeMO, Type 2) with power ratings up to 200kW",
+        "bullet4": "<strong>Smart Monitoring Systems:</strong> Integration of IoT-based monitoring platforms with real-time data analytics, performance ratio tracking, and automated alert systems",
+        "bullet5": "<strong>Power Distribution Management:</strong> Design and implementation of medium-voltage systems (22/24 kV), including transformer specifications and protection coordination studies"
+      },
+      "projectExcellence": {
+        "title": "Project Excellence",
+        "bullet1": "<strong>Comprehensive Site Assessments:</strong> Detailed structural analysis, shading studies, and electrical infrastructure evaluation",
+        "bullet2": "<strong>Technical Feasibility Studies:</strong> In-depth analysis of energy production potential, ROI calculations, and technical constraints",
+        "bullet3": "<strong>Professional Installation Protocols:</strong> Standardized installation procedures, safety protocols, and quality control checkpoints",
+        "bullet4": "<strong>Quality Control Procedures:</strong> Multi-point inspection system, performance testing, and documentation verification",
+        "bullet5": "<strong>Systematic Commissioning Processes:</strong> Structured testing protocols, system optimization, and handover procedures"
+      }
+    },
+    "qualityAssurance": {
+      "title": "Quality Assurance",
+      "equipmentStandards": {
+        "title": "Equipment Standards",
+        "bullet1": "<strong>High-Efficiency Solar Panels:</strong> Tier-1 manufacturers with minimum 20% efficiency, advanced cell technology (PERC/HJT), and 25-year performance warranty",
+        "bullet2": "<strong>Advanced Inverter Technology:</strong> String and central inverters with 98.5%+ efficiency, advanced grid support features, and comprehensive monitoring capabilities",
+        "bullet3": "<strong>Professional Mounting Systems:</strong> Wind-tunnel tested designs, corrosion-resistant materials (Grade 316 stainless steel), and 20-year structural warranty",
+        "bullet4": "<strong>Certified EV Charging Equipment:</strong> IP54-rated charging stations, smart load management, OCPP 1.6J compliance, and remote monitoring capabilities",
+        "bullet5": "<strong>Performance Monitoring Systems:</strong> Enterprise-grade monitoring platforms with 99.9% uptime, API integration capabilities, and advanced analytics features"
+      },
+      "installationStandards": {
+        "title": "Installation Standards",
+        "bullet1": "IEC-compliant procedures",
+        "bullet2": "Safety protocol implementation",
+        "bullet3": "Systematic quality checks",
+        "bullet4": "Performance verification",
+        "bullet5": "Documentation management"
+      }
+    },
+    "sustainabilityImpact": {
+      "title": "Sustainability Impact",
+      "measurableResults": {
+        "title": "Measurable Results",
+        "bullet1": "<strong>Carbon Footprint Reduction:</strong> Quantified CO2 emissions reduction through solar generation and efficient energy management",
+        "bullet2": "<strong>Energy Efficiency Optimization:</strong> Measured improvements in energy consumption patterns and system performance metrics",
+        "bullet3": "<strong>Sustainable Energy Generation:</strong> Documented renewable energy production and environmental impact assessments",
+        "bullet4": "<strong>Operational Cost Reduction:</strong> Verified cost savings through reduced energy bills and optimized consumption",
+        "bullet5": "<strong>Energy Independence Enhancement:</strong> Measured increase in self-consumption and reduced grid dependency"
+      }
+    }
+  },
+  "portfolio": {
+    "allProjectBreadcrumb": "All projects",
+    "filters": {
+      "allProjects": "All projects",
+      "solar": "Solar Rooftop Systems",
+      "evCharging": "EV Charging Stations",
+      "powerDistribute": "Power distribution system"
+    },
+    "title": "All Projects",
+    "actionButtonLabel": "View Detail"
+  },
+  "contactUsPage": {
+    "contactFormTitle": "For more information",
+    "contactFormSubTitle": "Send us a message",
+    "title": "Contact Us",
+    "fullNameTH": "บริษัท กรีนไททัน จำกัด",
+    "fullNameEN": "GREEN TITAN CO., LTD.",
+    "facebook": {
+      "title": "GREEN TITAN ENGINEERING",
+      "link": "https://www.facebook.com/@GreenTitanEngineering/"
+    },
+    "lineAd": { "title": "@greentitan", "link": "https://lin.ee/WogFj4o" },
+    "tel": { "title": "081-489-6496", "link": "0814896496" },
+    "email": {
+      "title": "greentitanengineering@gmail.com",
+      "link": "greentitanengineering@gmail.com"
+    },
+    "address": {
+      "title": "621 Ratchawithi 21, Bang Yi Khan, Bang Plat, Bangkok 10700",
+      "link": "googlemaps"
+    },
+    "formLabel": {
+      "personalLabel": "Personal",
+      "juristicLabel": "Juristic",
+      "fullName": "Full name",
+      "companyName": "Company name",
+      "surName": "Surname",
+      "phone": "Phone number",
+      "lineId": "Line ID",
+      "email": "Email",
+      "message": "Message",
+      "messagePlaceholder": "Enter the description...",
+      "consentText": "I have read and adgreed to the ",
+      "termAndServiceLabel": "Term of services",
+      "pdpaLabel": "Privacy Policy",
+      "submitButton": "Submit",
+      "placeHolderPrefix": "fill"
+    }
+  }
+}
