@@ -476,7 +476,7 @@ const OurServices = () => {
 
   const [solarSystemPrices, setSolarSystemPrices] = React.useState<any[]>([]);
   const [evChargingPrices, setEVChargingPrices] = React.useState<any[]>([]);
-
+  console.log("process.env : ", process.env);
   React.useEffect(() => {
     const fetchProjectImages = async () => {
       try {
