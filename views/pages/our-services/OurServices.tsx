@@ -1,27 +1,25 @@
 "use client";
-import { ArrowRightAlt, KeyboardArrowRight } from "@mui/icons-material";
+import { Link } from "@/i18n/routing";
+import CalendarChecked from "@/public/svgs/CalendarChecked.svg";
+import HartHat from "@/public/svgs/HartHat.svg";
+import SignaturedFile from "@/public/svgs/SignaturedFile.svg";
+import SolarPanel from "@/public/svgs/SolarPanel.svg";
+import ThumbsUp from "@/public/svgs/ThumbsUp.svg";
+import { KeyboardArrowRight } from "@mui/icons-material";
 import {
   Box,
   Button,
   Chip,
   Divider,
-  Tooltip,
   Typography,
   useTheme,
 } from "@mui/material";
+import axios from "axios";
 import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import numeral from "numeral";
 import React from "react";
-import SolarPanel from "@/public/svgs/SolarPanel.svg";
-import Bolt from "@/public/svgs/Bolt.svg";
-import CalendarChecked from "@/public/svgs/CalendarChecked.svg";
-import HartHat from "@/public/svgs/HartHat.svg";
-import SignaturedFile from "@/public/svgs/SignaturedFile.svg";
-import ThumbsUp from "@/public/svgs/ThumbsUp.svg";
-import axios from "axios";
-import { Link } from "@/i18n/routing";
 
 const fetchSolarSystemPrice = async (
   setPrice: React.Dispatch<React.SetStateAction<any[]>>
@@ -476,7 +474,6 @@ const OurServices = () => {
 
   const [solarSystemPrices, setSolarSystemPrices] = React.useState<any[]>([]);
   const [evChargingPrices, setEVChargingPrices] = React.useState<any[]>([]);
-  console.log("process.env : ", process.env);
   React.useEffect(() => {
     const fetchProjectImages = async () => {
       try {

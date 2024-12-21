@@ -1,5 +1,4 @@
 import { Link } from "@/i18n/routing";
-import { Home, HomeMiniRounded, HomeRounded } from "@mui/icons-material";
 import { Breadcrumbs, Divider, Typography, useTheme } from "@mui/material";
 import React from "react";
 

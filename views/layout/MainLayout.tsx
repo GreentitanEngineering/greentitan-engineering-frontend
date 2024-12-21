@@ -1,9 +1,9 @@
 "use client";
+import { ArrowUpwardOutlined } from "@mui/icons-material";
 import { Box, Container, SxProps } from "@mui/material";
-import React from "react";
 import { useTranslations } from "next-intl";
 import dynamic from "next/dynamic";
-import { ArrowUpward, ArrowUpwardOutlined } from "@mui/icons-material";
+import React from "react";
 
 const CoreNavigationBar = dynamic(
   () => import("./components/CoreNavigationBar")

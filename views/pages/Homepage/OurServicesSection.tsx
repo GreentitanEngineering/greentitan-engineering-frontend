@@ -1,15 +1,14 @@
 "use client";
-import { useResponsiveQuery } from "@/hooks/useResponsiveQuery";
+import { useRouter } from "@/i18n/routing";
+import AbstractLayer from "@/public/svgs/abstract_layer1.svg";
 import { Box, Button, Container, Typography, useTheme } from "@mui/material";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import React from "react";
-import AbstractLayer from "@/public/svgs/abstract_layer1.svg";
 
 const OurServicesSection = () => {
+  const router = useRouter();
   const theme = useTheme();
   const t = useTranslations("homePage.ourService");
-  const { isMobile, isTablet, isDesktop } = useResponsiveQuery();
   return (
     <Box
       position="relative"
@@ -71,9 +70,11 @@ const OurServicesSection = () => {
             width="100%"
             display="grid"
             sx={{
-              gridTemplateColumns: `repeat(${
-                isMobile ? 1 : isTablet ? 2 : 3
-              },1fr)`,
+              gridTemplateColumns: {
+                xs: `repeat(1,1fr)`,
+                md: `repeat(2,1fr)`,
+                lg: `repeat(3,1fr)`,
+              },
               gap: 3,
             }}
           >
@@ -129,9 +130,10 @@ const OurServicesSection = () => {
                       color="textPrimary"
                       sx={{
                         lineHeight: 1,
-                        fontSize: isMobile
-                          ? theme.typography.h4.fontSize
-                          : theme.typography.h6.fontSize,
+                        fontSize: {
+                          xs: theme.typography.h4.fontSize,
+                          lg: theme.typography.h6.fontSize,
+                        },
                       }}
                     >
                       {title}
@@ -152,6 +154,7 @@ const OurServicesSection = () => {
                     <Button
                       sx={{ maxWidth: "max-content" }}
                       variant="contained"
+                      onClick={() => router.push("/our-services")}
                     >
                       {t("services.buttonText")}
                     </Button>

@@ -1,7 +1,5 @@
 "use client";
-import { useResponsiveQuery } from "@/hooks/useResponsiveQuery";
 import { Box } from "@mui/material";
-import React from "react";
 
 const HeroBanner = () => {
   return (

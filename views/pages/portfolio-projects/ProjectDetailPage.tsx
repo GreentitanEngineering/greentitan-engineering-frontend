@@ -4,23 +4,23 @@ import CoreBreadcrumbs, {
 } from "@/views/layout/components/CoreBreadcrumbs";
 import { MainLayout } from "@/views/layout/MainLayout";
 import { HomeRounded, KeyboardArrowLeft } from "@mui/icons-material";
-import { Box, Breadcrumbs, Button, Typography, useTheme } from "@mui/material";
+import { Box, Button, Typography, useTheme } from "@mui/material";
 import dayjs from "dayjs";
 import { useLocale } from "next-intl";
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
+import { Swiper, SwiperSlide } from "swiper/react";
 
+import { useResponsiveQuery } from "@/hooks/useResponsiveQuery";
 import {
-  Navigation,
-  FreeMode,
-  Thumbs,
   A11y,
+  FreeMode,
+  Navigation,
   Pagination,
   Scrollbar,
+  Thumbs,
 } from "swiper/modules";
-import { useResponsiveQuery } from "@/hooks/useResponsiveQuery";
 
 const ProjectDetailPage: React.FC<any> = ({ project }) => {
   const theme = useTheme();

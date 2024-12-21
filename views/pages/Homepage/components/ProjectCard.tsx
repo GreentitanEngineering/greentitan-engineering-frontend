@@ -11,7 +11,6 @@ import {
   useTheme,
 } from "@mui/material";
 import { useLocale } from "next-intl";
-import React, { useState } from "react";
 
 const ProjectCard = ({
   imageUrl,

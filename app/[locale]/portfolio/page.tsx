@@ -1,13 +1,11 @@
 import { routing } from "@/i18n/routing";
 import { MainLayout } from "@/views/layout/MainLayout";
+import PortfolioAndProjects from "@/views/pages/portfolio-projects/PortfolioAndProjects";
 import { Box } from "@mui/material";
 import { Metadata } from "next";
 import { unstable_setRequestLocale } from "next-intl/server";
-import { notFound } from "next/navigation";
-import React from "react";
 import Image from "next/image";
-import PortfolioAndProjects from "@/views/pages/portfolio-projects/PortfolioAndProjects";
-import axios from "axios";
+import { notFound } from "next/navigation";
 
 export const metadata: Metadata = {
   title: "ผลงานของเรา",

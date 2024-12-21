@@ -1,10 +1,10 @@
 import { routing } from "@/i18n/routing";
 import { MainLayout } from "@/views/layout/MainLayout";
 import { Box } from "@mui/material";
+import axios from "axios";
+import { unstable_setRequestLocale } from "next-intl/server";
 import dynamic from "next/dynamic";
 import { notFound } from "next/navigation";
-import { unstable_setRequestLocale } from "next-intl/server";
-import axios from "axios";
 
 const fethProjectImages = async (locale: string) => {
   try {

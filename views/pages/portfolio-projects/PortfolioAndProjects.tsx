@@ -1,4 +1,6 @@
 "use client";
+import { useResponsiveQuery } from "@/hooks/useResponsiveQuery";
+import { useRouter } from "@/i18n/routing";
 import CoreBreadcrumbs, {
   Breadcrumb,
 } from "@/views/layout/components/CoreBreadcrumbs";
@@ -14,18 +16,14 @@ import {
   CircularProgress,
   MenuItem,
   Pagination,
-  Paper,
   Select,
   Typography,
   useTheme,
 } from "@mui/material";
+import axios from "axios";
 import { useLocale, useTranslations } from "next-intl";
 import { useSearchParams } from "next/navigation";
 import React from "react";
-import Image from "next/image";
-import { useRouter } from "@/i18n/routing";
-import axios from "axios";
-import { useResponsiveQuery } from "@/hooks/useResponsiveQuery";
 
 interface ProjectCardProps {
   name: string;

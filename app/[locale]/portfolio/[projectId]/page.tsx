@@ -1,7 +1,7 @@
 import ProjectDetailPage from "@/views/pages/portfolio-projects/ProjectDetailPage";
 import axios from "axios";
-import { notFound } from "next/navigation";
 import type { Metadata, ResolvingMetadata } from "next";
+import { notFound } from "next/navigation";
 
 const fetchProjectById = async (locale: string, projectId: string) => {
   try {

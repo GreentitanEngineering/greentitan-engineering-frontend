@@ -1,7 +1,6 @@
 "use client";
-import { Box, Typography, useTheme } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import { useTranslations } from "next-intl";
-import React from "react";
 
 const AboutUs = () => {
   const t = useTranslations("aboutUsPage");

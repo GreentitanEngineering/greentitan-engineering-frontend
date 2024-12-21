@@ -2,7 +2,7 @@ import { MainLayout } from "@/views/layout/MainLayout";
 import { Typography } from "@mui/material";
 import axios from "axios";
 import { Metadata } from "next";
-import React, { Suspense } from "react";
+import { Suspense } from "react";
 import NotFound from "../not-found";
 
 export const metadata: Metadata = {

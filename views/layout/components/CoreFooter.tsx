@@ -1,12 +1,11 @@
 "use client";
+import { useResponsiveQuery } from "@/hooks/useResponsiveQuery";
 import { Email, KeyboardArrowRight, Phone } from "@mui/icons-material";
 import { Box, Container, Typography, useTheme } from "@mui/material";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import CoreLangSwitcher from "./CoreLangSwitcher";
-import { useResponsiveQuery } from "@/hooks/useResponsiveQuery";
 
 const LineChip = () => (
   <Box

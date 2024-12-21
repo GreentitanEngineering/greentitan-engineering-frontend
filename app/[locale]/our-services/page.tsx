@@ -1,12 +1,9 @@
-import { MainLayout } from "@/views/layout/MainLayout";
-import { Box, Typography, useTheme } from "@mui/material";
-import { unstable_setRequestLocale } from "next-intl/server";
-import React from "react";
-import Image from "next/image";
 import { routing } from "@/i18n/routing";
-import { notFound } from "next/navigation";
+import { MainLayout } from "@/views/layout/MainLayout";
 import OurServices from "@/views/pages/our-services/OurServices";
 import { Metadata } from "next";
+import { unstable_setRequestLocale } from "next-intl/server";
+import { notFound } from "next/navigation";
 
 export const metadata: Metadata = {
   title: "บริการของเรา",

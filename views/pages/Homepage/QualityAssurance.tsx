@@ -3,7 +3,6 @@ import { useResponsiveQuery } from "@/hooks/useResponsiveQuery";
 import { Box, Container, Typography, useTheme } from "@mui/material";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import React from "react";
 
 const QualityAssurance = () => {
   const theme = useTheme();

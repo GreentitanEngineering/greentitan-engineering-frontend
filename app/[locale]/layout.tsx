@@ -1,18 +1,15 @@
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
-import { routing } from "@/i18n/routing";
 
 //Material UI
-import { AppRouterCacheProvider } from "@mui/material-nextjs/v14-appRouter";
-import { IBM_Plex_Sans_Thai } from "next/font/google";
-import { ThemeProvider } from "@mui/material/styles";
-import { unstable_setRequestLocale } from "next-intl/server";
 import theme from "@/theme";
+import { AppRouterCacheProvider } from "@mui/material-nextjs/v14-appRouter";
+import { ThemeProvider } from "@mui/material/styles";
+import { IBM_Plex_Sans_Thai } from "next/font/google";
 
 // Global CSS
-import "../global.css";
 import { Metadata } from "next";
-import notFound from "./not-found";
+import "../global.css";
 
 const ibm_font = IBM_Plex_Sans_Thai({
   weight: ["200", "300", "400", "500", "600", "700"],

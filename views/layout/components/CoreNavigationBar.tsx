@@ -1,25 +1,22 @@
 "use client";
-import React, { useTransition } from "react";
+import { useResponsiveQuery } from "@/hooks/useResponsiveQuery";
+import { Link, usePathname } from "@/i18n/routing";
+import Hamburgers from "@/public/svgs/Hambergers.svg";
+import { Email, Phone } from "@mui/icons-material";
 import {
   AppBar,
   Box,
   Container,
-  createStyles,
   IconButton,
   Popover,
-  Theme,
   Toolbar,
   Typography,
   useTheme,
 } from "@mui/material";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { useRouter, useParams } from "next/navigation";
-import { useLocale, useTranslations } from "next-intl";
-import { Link, usePathname } from "@/i18n/routing";
-import { Email, Phone } from "@mui/icons-material";
+import React from "react";
 import CoreLangSwitcher from "./CoreLangSwitcher";
-import { useResponsiveQuery } from "@/hooks/useResponsiveQuery";
-import Hamburgers from "@/public/svgs/Hambergers.svg";
 
 interface NavigationProps {
   navigations: {

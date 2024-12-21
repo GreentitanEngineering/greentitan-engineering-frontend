@@ -1,4 +1,6 @@
 "use client";
+import { useResponsiveQuery } from "@/hooks/useResponsiveQuery";
+import { ArrowForward } from "@mui/icons-material";
 import {
   Box,
   Button,
@@ -7,12 +9,10 @@ import {
   Typography,
   useTheme,
 } from "@mui/material";
+import axios from "axios";
 import { useLocale, useTranslations } from "next-intl";
 import React from "react";
 import ProjectCard from "./components/ProjectCard";
-import { ArrowForward } from "@mui/icons-material";
-import axios from "axios";
-import { useResponsiveQuery } from "@/hooks/useResponsiveQuery";
 
 const HeroProjects = () => {
   const locale = useLocale();

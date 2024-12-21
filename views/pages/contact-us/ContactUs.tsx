@@ -1,11 +1,10 @@
 "use client";
+import { useResponsiveQuery } from "@/hooks/useResponsiveQuery";
+import ContactForm from "@/views/ContactForm";
 import { Email, Map, Phone } from "@mui/icons-material";
 import { Box, Typography, useTheme } from "@mui/material";
 import { useTranslations } from "next-intl";
-import React from "react";
 import Image from "next/image";
-import ContactForm from "@/views/ContactForm";
-import { useResponsiveQuery } from "@/hooks/useResponsiveQuery";
 
 const AddressMap = () => {
   const theme = useTheme();

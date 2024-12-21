@@ -2,13 +2,11 @@
 import { Box, Container, Typography, useTheme } from "@mui/material";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { useResponsiveQuery } from "@/hooks/useResponsiveQuery";
+import { A11y, Navigation, Pagination, Scrollbar } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 const AboutUsContent = ({ projects }: { projects: any }) => {
   const theme = useTheme();
